@@ -1,0 +1,298 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e4f5d1ca-8b46-4ca2-bb25-7f237c56d603")
+	(paper "A4")
+	(title_block
+		(title "Preamp2311")
+		(date "03.2026")
+		(rev "2")
+		(company "DMSDL")
+		(comment 1 "designed by Oleg Voitovich")
+		(comment 2 "CERN-OHL-S v2 license")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 50.8 72.39) (xy 68.58 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a8a3f4c-8688-4099-913a-02f23fc5c71c")
+	)
+	(wire
+		(pts
+			(xy 50.8 58.42) (xy 68.58 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bdd3238-c6fd-41cd-9ca2-bfe9578084fd")
+	)
+	(wire
+		(pts
+			(xy 50.8 62.23) (xy 68.58 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52c552d9-0579-4915-ae96-0cf679f5324a")
+	)
+	(wire
+		(pts
+			(xy 50.8 80.01) (xy 68.58 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9067b414-e527-483d-818e-fdcfd9d9293e")
+	)
+	(wire
+		(pts
+			(xy 50.8 76.2) (xy 68.58 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9d23012-b993-494c-abc8-bb5dab9e5d1c")
+	)
+	(sheet
+		(at 68.58 31.75)
+		(size 24.13 66.04)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3e7d5077-9500-4fde-ab00-4eb445791b9c")
+		(property "Sheetname" "mcu"
+			(at 68.58 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 68.58 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "4052_SIG_S0" input
+			(at 68.58 58.42 180)
+			(uuid "8d7e8edf-4613-4379-ba7f-8715afb5df37")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "4052_GND_S0" input
+			(at 68.58 62.23 180)
+			(uuid "09b33c43-c4f4-4904-9f21-07d11b660a2b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_CS" input
+			(at 68.58 72.39 180)
+			(uuid "02d98c0d-f55f-4c10-8f78-f1a59ef7097e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_MOSI" input
+			(at 68.58 76.2 180)
+			(uuid "f1b8f902-d3aa-476b-9e56-4b5b2f4c6c95")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_SCLK" input
+			(at 68.58 80.01 180)
+			(uuid "ee5ac36f-8dc1-4b8d-ae89-4ea529fa1665")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "PGA2311_3"
+				(path "/e4f5d1ca-8b46-4ca2-bb25-7f237c56d603"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 31.75)
+		(size 25.4 65.405)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "417e42a4-c07c-47f8-ba75-79030ad924cb")
+		(property "Sheetname" "analog"
+			(at 25.4 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "analog.kicad_sch"
+			(at 25.4 97.7396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "4052_SIG_S0" input
+			(at 50.8 58.42 0)
+			(uuid "580d56d8-2cdc-495d-bf30-787ebba0b309")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "4052_GND_S0" input
+			(at 50.8 62.23 0)
+			(uuid "fab0fcc8-e5b8-40c3-9e67-f0ac93caeb34")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_CS" input
+			(at 50.8 72.39 0)
+			(uuid "999ea339-2855-421d-9e8c-faeecfb508f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_MOSI" input
+			(at 50.8 76.2 0)
+			(uuid "854fcaae-3f53-4c4b-9bbd-8ab8cb92dd92")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_SCLK" input
+			(at 50.8 80.01 0)
+			(uuid "161b3e5c-1cf2-4a7f-958d-1ed991154def")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PGA2311_3"
+				(path "/e4f5d1ca-8b46-4ca2-bb25-7f237c56d603"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.045 32.385)
+		(size 12.7 64.77)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7bc8da3d-9121-4e76-b7cc-898c0127e5c6")
+		(property "Sheetname" "power"
+			(at 106.045 31.6734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 106.045 97.7396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PGA2311_3"
+				(path "/e4f5d1ca-8b46-4ca2-bb25-7f237c56d603"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
