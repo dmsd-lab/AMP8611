@@ -1,4 +1,4 @@
-## AMP8611 - Compact Integrated class AB Stereo Power Amplifier
+## AMP8611 - Integrated class AB Stereo Power Amplifier
 
 #### Open hardware project under CERN-OHL-S v2 license
  
