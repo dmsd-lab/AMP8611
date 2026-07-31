@@ -2780,7 +2780,7 @@
 	)
 	(text "DNP if jumper\nwire used"
 		(exclude_from_sim no)
-		(at 251.46 154.94 0)
+		(at 252.984 151.384 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9851,15 +9851,15 @@
 		(dnp no)
 		(uuid "39ee8d50-b4df-43c4-b583-b1b2293a461e")
 		(property "Reference" "R120"
-			(at 252.73 143.51 90)
+			(at 252.222 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10"
-			(at 258.064 143.51 90)
+		(property "Value" "1"
+			(at 257.81 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12245,15 +12245,15 @@
 		(dnp no)
 		(uuid "bb72f0d9-d3c2-43b8-bda5-88a3b5bef766")
 		(property "Reference" "R119"
-			(at 252.73 137.16 90)
+			(at 252.222 130.556 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10"
-			(at 258.064 137.16 90)
+		(property "Value" "1"
+			(at 257.556 130.556 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12943,7 +12943,7 @@
 		(dnp no)
 		(uuid "da5c1d34-f4cd-4bd7-b846-b5dc61a1554a")
 		(property "Reference" "R121"
-			(at 252.73 151.13 90)
+			(at 252.476 144.526 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12951,7 +12951,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 258.064 151.13 90)
+			(at 257.81 144.526 90)
 			(effects
 				(font
 					(size 1.27 1.27)
