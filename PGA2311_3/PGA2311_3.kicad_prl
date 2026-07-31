@@ -112,20 +112,7 @@
   },
   "open_jobsets": [],
   "project": {
-    "files": [
-      {
-        "name": "PGA2311_3.kicad_pcb",
-        "open": true,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 1718,
-          "size_y": 1096
-        }
-      }
-    ]
+    "files": []
   },
   "schematic": {
     "selection_filter": {
