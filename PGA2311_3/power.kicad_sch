@@ -1475,7 +1475,7 @@
 		)
 		(uuid "050a7db2-3442-49af-992e-6f5c6e531082")
 	)
-	(text "AC (7 - 11)V"
+	(text "AC (7 - 10)V"
 		(exclude_from_sim no)
 		(at 257.048 71.374 0)
 		(effects
