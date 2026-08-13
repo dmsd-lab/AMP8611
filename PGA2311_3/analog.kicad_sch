@@ -7,7 +7,7 @@
 	(title_block
 		(title "Preamp2311")
 		(date "03.2026")
-		(rev "2")
+		(rev "2_1")
 		(company "DMSDL")
 		(comment 1 "designed by Oleg Voitovich")
 		(comment 2 "CERN-OHL-S v2 license")
@@ -4468,16 +4468,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 69.85) (xy 205.74 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00373340-f8ab-4d2a-a05f-6b6ce48fdec9")
-	)
-	(wire
-		(pts
 			(xy 204.47 54.61) (xy 205.74 54.61)
 		)
 		(stroke
@@ -4735,16 +4725,6 @@
 			(type default)
 		)
 		(uuid "1a7d82b6-1b6e-4c09-90d1-1a925ab7f004")
-	)
-	(wire
-		(pts
-			(xy 205.74 69.85) (xy 208.28 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a8341cb-a001-4431-a7dc-c1b939c3d9d3")
 	)
 	(wire
 		(pts
@@ -6248,16 +6228,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 69.85) (xy 214.63 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99726997-d75a-42bf-9a0c-01d09c27ed9c")
-	)
-	(wire
-		(pts
 			(xy 142.24 180.34) (xy 142.24 181.61)
 		)
 		(stroke
@@ -6695,16 +6665,6 @@
 			(type default)
 		)
 		(uuid "bf735f1f-d874-4185-b87f-065af96dbbc8")
-	)
-	(wire
-		(pts
-			(xy 214.63 69.85) (xy 214.63 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfc55e3a-618b-4174-a223-4071ab55c218")
 	)
 	(wire
 		(pts
@@ -9763,71 +9723,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 205.74 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2bfcf7a7-d416-4ffa-a8cc-07fc37d91605")
-		(property "Reference" "#PWR0249"
-			(at 205.74 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 210.058 75.692 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "818a50aa-556b-4237-9e31-1aed29015be0")
-		)
-		(instances
-			(project "PGA2311_3"
-				(path "/e4f5d1ca-8b46-4ca2-bb25-7f237c56d603/417e42a4-c07c-47f8-ba75-79030ad924cb"
-					(reference "#PWR0249")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 134.62 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10418,73 +10313,6 @@
 			(project "PGA2311_1"
 				(path "/e4f5d1ca-8b46-4ca2-bb25-7f237c56d603/417e42a4-c07c-47f8-ba75-79030ad924cb"
 					(reference "#PWR0220")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 210.82 69.85 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3889e33c-3bf7-4d3a-a3f3-fb61ca3881f9")
-		(property "Reference" "R229"
-			(at 214.63 66.802 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 209.55 67.056 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 210.82 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 210.82 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 210.82 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c6a35317-6b05-4aab-8238-9e67637bebd0")
-		)
-		(pin "2"
-			(uuid "20193947-b8fd-44ca-8a5b-e37bfbea5c3e")
-		)
-		(instances
-			(project "PGA2311_3"
-				(path "/e4f5d1ca-8b46-4ca2-bb25-7f237c56d603/417e42a4-c07c-47f8-ba75-79030ad924cb"
-					(reference "R229")
 					(unit 1)
 				)
 			)
@@ -14197,71 +14025,6 @@
 			(project "PGA2311_1"
 				(path "/e4f5d1ca-8b46-4ca2-bb25-7f237c56d603/417e42a4-c07c-47f8-ba75-79030ad924cb"
 					(reference "#PWR0202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 214.63 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ad6ea4c9-8d3e-4ea3-9c1b-e9c5bb6cc6f5")
-		(property "Reference" "#PWR0250"
-			(at 214.63 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 218.948 75.692 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 214.63 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 214.63 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8f273b5e-9df3-4c5c-8840-b3f50c3fd214")
-		)
-		(instances
-			(project "PGA2311_3"
-				(path "/e4f5d1ca-8b46-4ca2-bb25-7f237c56d603/417e42a4-c07c-47f8-ba75-79030ad924cb"
-					(reference "#PWR0250")
 					(unit 1)
 				)
 			)
