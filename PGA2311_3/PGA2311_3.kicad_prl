@@ -114,8 +114,8 @@
   "project": {
     "files": [
       {
-        "name": "PGA2311_3.kicad_sch",
-        "open": true,
+        "name": "PGA2311_3.kicad_pcb",
+        "open": false,
         "window": {
           "display": 0,
           "maximized": true,
@@ -126,7 +126,7 @@
         }
       },
       {
-        "name": "PGA2311_3.kicad_pcb",
+        "name": "PGA2311_3.kicad_sch",
         "open": false,
         "window": {
           "display": 0,
