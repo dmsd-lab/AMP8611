@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 7,
     "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -114,8 +114,8 @@
   "project": {
     "files": [
       {
-        "name": "PGA2311_3.kicad_pcb",
-        "open": false,
+        "name": "PGA2311_3.kicad_sch",
+        "open": true,
         "window": {
           "display": 0,
           "maximized": true,
@@ -126,7 +126,7 @@
         }
       },
       {
-        "name": "PGA2311_3.kicad_sch",
+        "name": "PGA2311_3.kicad_pcb",
         "open": false,
         "window": {
           "display": 0,
