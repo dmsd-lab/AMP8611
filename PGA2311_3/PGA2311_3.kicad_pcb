@@ -72716,7 +72716,7 @@
 			)
 		)
 	)
-	(gr_text "PREAMP2311 v.2.2\n(c) DMSDL 2026\n\n"
+	(gr_text "PREAMP2311 v.2.3\n(c) DMSDL 2026\n\n"
 		(at 52.705 77.343 0)
 		(layer "F.SilkS")
 		(uuid "82bd9672-94db-4de0-b4e6-6d4761086c10")
@@ -73002,7 +73002,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "PREAMP2311 v.2.2\n(c) DMSDL 2026\n\n"
+	(gr_text "PREAMP2311 v.2.3\n(c) DMSDL 2026\n\n"
 		(at 74.041 76.2 0)
 		(layer "B.SilkS")
 		(uuid "2a95eda1-968b-424b-8a22-0fe35dc97a31")
