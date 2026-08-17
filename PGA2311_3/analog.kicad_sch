@@ -5084,7 +5084,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 29.21) (xy 259.08 29.21)
+			(xy 257.81 29.21) (xy 265.43 29.21)
 		)
 		(stroke
 			(width 0)
@@ -6591,16 +6591,6 @@
 			(type default)
 		)
 		(uuid "abb8d019-97b5-4255-a46f-017012cd37fc")
-	)
-	(wire
-		(pts
-			(xy 264.16 29.21) (xy 265.43 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adc0083b-4228-4e52-a998-653e81952444")
 	)
 	(wire
 		(pts
@@ -8117,7 +8107,7 @@
 				)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "100"
 			(at 77.216 93.98 90)
 			(effects
 				(font
@@ -14136,7 +14126,7 @@
 				)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "100"
 			(at 74.676 15.24 90)
 			(effects
 				(font
@@ -15996,73 +15986,6 @@
 			(project "PGA2311_3"
 				(path "/e4f5d1ca-8b46-4ca2-bb25-7f237c56d603/417e42a4-c07c-47f8-ba75-79030ad924cb"
 					(reference "#PWR0230")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 261.62 29.21 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cafd59c9-5624-4899-a375-a0447c30fac3")
-		(property "Reference" "R234"
-			(at 265.43 26.162 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 260.35 26.416 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 261.62 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 261.62 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 261.62 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d14cb51a-7cec-4689-98e6-d6a53f971f12")
-		)
-		(pin "2"
-			(uuid "35667244-1b48-4758-a177-578062a1b97e")
-		)
-		(instances
-			(project "PGA2311_3"
-				(path "/e4f5d1ca-8b46-4ca2-bb25-7f237c56d603/417e42a4-c07c-47f8-ba75-79030ad924cb"
-					(reference "R234")
 					(unit 1)
 				)
 			)
