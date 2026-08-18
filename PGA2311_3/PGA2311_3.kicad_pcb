@@ -73167,7 +73167,7 @@
 		)
 	)
 	(gr_text "PREAMP2311 v.2.4\n(c) DMSDL 2026\n\n"
-		(at 59.309 76.962 0)
+		(at 30.099 67.437 90)
 		(layer "F.SilkS")
 		(uuid "82bd9672-94db-4de0-b4e6-6d4761086c10")
 		(effects
@@ -73462,7 +73462,7 @@
 		)
 	)
 	(gr_text "PREAMP2311 v.2.4\n(c) DMSDL 2026\n\n"
-		(at 77.597 76.327 0)
+		(at 77.978 76.2 0)
 		(layer "B.SilkS")
 		(uuid "2a95eda1-968b-424b-8a22-0fe35dc97a31")
 		(effects
