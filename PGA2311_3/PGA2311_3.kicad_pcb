@@ -30101,7 +30101,7 @@
 		(descr "C, Rect series, Radial, pin pitch=5.00mm, length*width=7.2*7.2mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_2.pdf")
 		(tags "C Rect series Radial pin pitch 5.00mm length 7.2mm width 7.2mm Capacitor")
 		(property "Reference" "C202"
-			(at 0.423 4.572 0)
+			(at -0.085 4.572 0)
 			(layer "F.SilkS")
 			(uuid "80cfca62-f478-479d-bde7-74dae63ba9d7")
 			(effects
@@ -75008,7 +75008,7 @@
 		(uuid "2eb0e7ae-42be-47d2-9375-30f1a1b7d7b6")
 	)
 	(via
-		(at 105.857377 40.767)
+		(at 102.997 40.767)
 		(size 1)
 		(drill 0.5)
 		(layers "F.Cu" "B.Cu")
@@ -75486,6 +75486,15 @@
 		(uuid "76ea4037-cb6f-4ebe-8598-ad15777b8e1f")
 	)
 	(via
+		(at 105.918 40.767)
+		(size 1)
+		(drill 0.5)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "79cc1045-d678-4a08-92c7-34c693ad8262")
+	)
+	(via
 		(at 85.725 71.7765)
 		(size 1)
 		(drill 0.5)
@@ -75774,6 +75783,15 @@
 		(uuid "9bebf279-de0f-4b2d-924c-9fd1e3e3412f")
 	)
 	(via
+		(at 102.997 38.1)
+		(size 1)
+		(drill 0.5)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "9c4b6745-40b3-4106-97a8-0c0884542101")
+	)
+	(via
 		(at 37.338 55.372)
 		(size 1)
 		(drill 0.5)
@@ -75954,7 +75972,7 @@
 		(uuid "afc25b64-b62b-4fb0-8b20-8901af2a598e")
 	)
 	(via
-		(at 105.791 31.877)
+		(at 105.918 31.877)
 		(size 1)
 		(drill 0.5)
 		(layers "F.Cu" "B.Cu")
@@ -78325,12 +78343,12 @@
 		(uuid "9c1a1308-2181-4de9-bdae-6f4c11c32c51")
 	)
 	(segment
-		(start 56.261 58.293)
-		(end 61.976 58.293)
+		(start 55.118 59.055)
+		(end 55.88 58.293)
 		(width 1)
 		(layer "B.Cu")
 		(net 3)
-		(uuid "181ee2f0-8c7b-4009-a2d4-a4461b0f7f7d")
+		(uuid "1b99f893-bd43-48e5-a8d1-b06d47fc5c72")
 	)
 	(segment
 		(start 52.8 59.055)
@@ -78373,12 +78391,28 @@
 		(uuid "2e604657-c313-49c9-80f5-0d46d48f2d74")
 	)
 	(segment
+		(start 55.88 58.293)
+		(end 61.976 58.293)
+		(width 1)
+		(layer "B.Cu")
+		(net 3)
+		(uuid "4859bf64-f839-4eb9-8ff2-ae695db4087b")
+	)
+	(segment
 		(start 96.139 40.5384)
 		(end 96.139 41.8885)
 		(width 0.75)
 		(layer "B.Cu")
 		(net 3)
 		(uuid "49e6e308-e8ef-42f1-9e97-7cd95134e69f")
+	)
+	(segment
+		(start 61.976 58.293)
+		(end 64.77 61.087)
+		(width 1)
+		(layer "B.Cu")
+		(net 3)
+		(uuid "4ce6bb6b-4c59-4947-92ad-7dab8c25b01c")
 	)
 	(segment
 		(start 49.53 59.579)
@@ -78461,14 +78495,6 @@
 		(uuid "7963bc3c-444b-4b6f-845e-6b78683cb30e")
 	)
 	(segment
-		(start 61.976 58.293)
-		(end 64.77 61.087)
-		(width 1)
-		(layer "B.Cu")
-		(net 3)
-		(uuid "7f61ede8-fee6-472d-8d3e-009845433ee3")
-	)
-	(segment
 		(start 40.132 48.641)
 		(end 42.418 46.355)
 		(width 0.5)
@@ -78491,14 +78517,6 @@
 		(layer "B.Cu")
 		(net 3)
 		(uuid "872dcdab-72aa-4855-b68a-be7f46ce6a51")
-	)
-	(segment
-		(start 55.499 59.055)
-		(end 56.261 58.293)
-		(width 1)
-		(layer "B.Cu")
-		(net 3)
-		(uuid "91a9bbb1-b2ab-4ffa-8647-889813aa5b83")
 	)
 	(segment
 		(start 90.424 54.991)
@@ -78533,20 +78551,20 @@
 		(uuid "954cd678-8e99-464b-9227-515e6dadd41e")
 	)
 	(segment
+		(start 52.8 59.055)
+		(end 55.118 59.055)
+		(width 1)
+		(layer "B.Cu")
+		(net 3)
+		(uuid "978f0b0f-253e-4713-ab67-76aa1bac0749")
+	)
+	(segment
 		(start 70.104 61.087)
 		(end 73.025 58.166)
 		(width 1)
 		(layer "B.Cu")
 		(net 3)
 		(uuid "97db1ba8-1a39-4693-adb6-a1b725eb0821")
-	)
-	(segment
-		(start 52.8 59.055)
-		(end 55.499 59.055)
-		(width 1)
-		(layer "B.Cu")
-		(net 3)
-		(uuid "9809ae93-7121-425d-a0a2-7dcebbe97c95")
 	)
 	(segment
 		(start 66.548 46.928)
