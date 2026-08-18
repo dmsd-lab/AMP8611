@@ -91990,20 +91990,30 @@
 		(net 0)
 		(net_name "")
 		(layer "F.Mask")
-		(uuid "351057f9-af1f-4dba-915a-f678774c65ec")
+		(uuid "bf5e7929-b869-4d28-b80e-f225544f146a")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0.5)
 		)
 		(min_thickness 0.25)
 		(filled_areas_thickness no)
-		(fill
+		(fill yes
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
 		)
 		(polygon
 			(pts
-				(xy 118.872 73.66) (xy 124.206 73.66) (xy 124.206 76.962) (xy 118.872 76.962)
+				(xy 204.724 73.66) (xy 210.82 73.66) (xy 210.82 77.089) (xy 204.724 77.089)
+			)
+		)
+		(filled_polygon
+			(layer "F.Mask")
+			(island)
+			(pts
+				(xy 210.763039 73.679685) (xy 210.808794 73.732489) (xy 210.82 73.784) (xy 210.82 76.965) (xy 210.800315 77.032039)
+				(xy 210.747511 77.077794) (xy 210.696 77.089) (xy 204.848 77.089) (xy 204.780961 77.069315) (xy 204.735206 77.016511)
+				(xy 204.724 76.965) (xy 204.724 73.784) (xy 204.743685 73.716961) (xy 204.796489 73.671206) (xy 204.848 73.66)
+				(xy 210.696 73.66)
 			)
 		)
 	)
@@ -92011,20 +92021,30 @@
 		(net 0)
 		(net_name "")
 		(layer "F.Mask")
-		(uuid "f0c08d02-fd74-4c23-bfb2-f019a0484cad")
+		(uuid "e5d15103-3335-4c47-a0aa-38dab3a7c4e6")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0.5)
 		)
 		(min_thickness 0.25)
 		(filled_areas_thickness no)
-		(fill
+		(fill yes
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
 		)
 		(polygon
 			(pts
-				(xy 205.74 73.66) (xy 211.074 73.66) (xy 211.074 76.962) (xy 205.74 76.962)
+				(xy 118.999 73.66) (xy 125.095 73.66) (xy 125.095 77.089) (xy 118.999 77.089)
+			)
+		)
+		(filled_polygon
+			(layer "F.Mask")
+			(island)
+			(pts
+				(xy 125.038039 73.679685) (xy 125.083794 73.732489) (xy 125.095 73.784) (xy 125.095 76.965) (xy 125.075315 77.032039)
+				(xy 125.022511 77.077794) (xy 124.971 77.089) (xy 119.123 77.089) (xy 119.055961 77.069315) (xy 119.010206 77.016511)
+				(xy 118.999 76.965) (xy 118.999 73.784) (xy 119.018685 73.716961) (xy 119.071489 73.671206) (xy 119.123 73.66)
+				(xy 124.971 73.66)
 			)
 		)
 	)
