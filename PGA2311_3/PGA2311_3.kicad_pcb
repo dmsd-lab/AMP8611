@@ -91969,37 +91969,6 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layer "F.Mask")
-		(uuid "32cacf77-2182-45a5-918b-144fa96d1d09")
-		(hatch edge 0.5)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.25)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-		)
-		(polygon
-			(pts
-				(xy 118.872 73.406) (xy 207.518 73.406) (xy 207.518 77.47) (xy 118.872 77.47)
-			)
-		)
-		(filled_polygon
-			(layer "F.Mask")
-			(island)
-			(pts
-				(xy 207.461039 73.425685) (xy 207.506794 73.478489) (xy 207.518 73.53) (xy 207.518 77.346) (xy 207.498315 77.413039)
-				(xy 207.445511 77.458794) (xy 207.394 77.47) (xy 118.996 77.47) (xy 118.928961 77.450315) (xy 118.883206 77.397511)
-				(xy 118.872 77.346) (xy 118.872 73.53) (xy 118.891685 73.462961) (xy 118.944489 73.417206) (xy 118.996 73.406)
-				(xy 207.394 73.406)
-			)
-		)
-	)
-	(zone
-		(net 0)
-		(net_name "")
 		(layer "B.Cu")
 		(uuid "3cd9cc08-05b7-4cad-a477-de3f5044fe13")
 		(hatch edge 0.5)
