@@ -3925,7 +3925,7 @@
 		)
 		(uuid "a464ab46-28c2-4729-b67b-d8e0fc18fa21")
 	)
-	(text " -3dB 10Hz - 400 kHz"
+	(text " -3dB 10Hz - 350 kHz"
 		(exclude_from_sim no)
 		(at 145.288 48.006 0)
 		(effects
@@ -9460,7 +9460,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "220"
 			(at 129.54 54.61 90)
 			(effects
 				(font
@@ -14445,7 +14445,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "220"
 			(at 130.81 80.01 90)
 			(effects
 				(font
