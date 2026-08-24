@@ -7,7 +7,7 @@
 	(title_block
 		(title "Preamp2311")
 		(date "08.2026")
-		(rev "2_5")
+		(rev "2_6")
 		(company "DMSDL")
 		(comment 1 "designed by Oleg Voitovich")
 		(comment 2 "CERN-OHL-S v2 license")
