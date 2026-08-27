@@ -16,6 +16,7 @@
 ##### Volume control: -80 to +12dB;
 ##### Dimensions: 240 x 265 x 65 mm (80 mm including feet);
 ##### Weight: 4.0 kg.
+##
 
 ![alt text](/face.jpg)
 
