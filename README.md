@@ -6,6 +6,7 @@
 #### PGA2311 digital volume control and 45W per-channel LM3886 output stages.
 #### Full documentation (description pdf, Kicad project schematic and PCB, Gerber files, BOM, STM32 firmware) is available in the repository.
 
+##
 ##### Key Specifications:
 ##### Input resistance: 10kΩ;
 ##### Nominal input voltage: 0.85Vrms;
