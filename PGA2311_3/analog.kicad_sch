@@ -4259,12 +4259,6 @@
 		(uuid "2d432516-cda5-446f-95e2-05bce97e98eb")
 	)
 	(junction
-		(at 228.6 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2e7b7bf9-a28d-47aa-983b-6785b70636d0")
-	)
-	(junction
 		(at 226.06 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5023,16 +5017,6 @@
 			(type default)
 		)
 		(uuid "237f2342-6b7b-4e21-a82b-7d40bca0a197")
-	)
-	(wire
-		(pts
-			(xy 228.6 38.1) (xy 228.6 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "253ccc10-a487-43d5-848f-c85e6bc3ebbf")
 	)
 	(wire
 		(pts
@@ -6186,16 +6170,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 29.21) (xy 237.49 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "757be2db-5b4a-43a0-8c61-550dc5929615")
-	)
-	(wire
-		(pts
 			(xy 132.08 175.26) (xy 132.08 172.72)
 		)
 		(stroke
@@ -6356,7 +6330,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 29.21) (xy 228.6 29.21)
+			(xy 226.06 29.21) (xy 237.49 29.21)
 		)
 		(stroke
 			(width 0)
@@ -6493,16 +6467,6 @@
 			(type default)
 		)
 		(uuid "93e7c144-528b-44c9-8d15-d08239472d1e")
-	)
-	(wire
-		(pts
-			(xy 228.6 29.21) (xy 228.6 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "942d6c15-d8f3-4376-9e77-75d67c5f2be9")
 	)
 	(wire
 		(pts
@@ -11316,7 +11280,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "10u"
 			(at 240.03 36.8362 0)
 			(effects
 				(font
@@ -14615,76 +14579,6 @@
 			(project "PGA2311_3"
 				(path "/e4f5d1ca-8b46-4ca2-bb25-7f237c56d603/417e42a4-c07c-47f8-ba75-79030ad924cb"
 					(reference "R205")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 228.6 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a2cc4d4f-94de-413e-adc9-2ba344a13bd9")
-		(property "Reference" "C233"
-			(at 231.14 34.2962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 231.14 36.8362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 228.6 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 228.6 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 228.6 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c3bfcd3-2746-4f29-87bf-a88c70e04b8b")
-		)
-		(pin "2"
-			(uuid "c6e5672f-117f-42bc-93dc-7c45d34fa66c")
-		)
-		(instances
-			(project "PGA2311_3"
-				(path "/e4f5d1ca-8b46-4ca2-bb25-7f237c56d603/417e42a4-c07c-47f8-ba75-79030ad924cb"
-					(reference "C233")
 					(unit 1)
 				)
 			)
@@ -19130,71 +19024,6 @@
 			(project "PGA2311_3"
 				(path "/e4f5d1ca-8b46-4ca2-bb25-7f237c56d603/417e42a4-c07c-47f8-ba75-79030ad924cb"
 					(reference "#PWR0245")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 228.6 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fe3a5d92-4440-4fc7-a561-90dc7390248e")
-		(property "Reference" "#PWR0253"
-			(at 228.6 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 232.918 43.942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 228.6 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "66c67c9a-0247-4365-805e-37664078b225")
-		)
-		(instances
-			(project "PGA2311_3"
-				(path "/e4f5d1ca-8b46-4ca2-bb25-7f237c56d603/417e42a4-c07c-47f8-ba75-79030ad924cb"
-					(reference "#PWR0253")
 					(unit 1)
 				)
 			)
