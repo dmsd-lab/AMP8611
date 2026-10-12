@@ -10,13 +10,11 @@ Full documentation (description pdf, Kicad project schematic and PCB, Gerber fil
 **Key Specifications**:
 - Input resistance: 10kΩ;  
 - Nominal input voltage: 0.85Vrms;  
-- Maximum input voltage: 2.5Vrms;  
-- Input Channels isolation: 95dB;  
+- Maximum input voltage: 2.5Vrms;   
 - Maximum output power: 2 x 45W RMS (1kHz sinusoidal, 4ohm load);  
 - Bandwidth (-3dB): 20Hz – 90kHz;  
 - Volume control: -80 to +12dB;  
-- Dimensions: 240 x 265 x 65 mm (80 mm including feet);  
-- Weight: 4.0 kg.
+- Dimensions: 240 x 265 x 65 mm (80 mm including feet).
 
 
 ![alt text](/face.jpg)
