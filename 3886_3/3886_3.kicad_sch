@@ -2675,6 +2675,17 @@
 		)
 		(uuid "2c52f8fe-d8f4-4ac9-a77a-b513bbc93f12")
 	)
+	(text "X7R!"
+		(exclude_from_sim no)
+		(at 228.346 32.512 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "32532446-d260-4150-8d76-a36d6ae314de")
+	)
 	(text "bandwidth \n-3dB 10Hz - 100kHz"
 		(exclude_from_sim no)
 		(at 96.266 19.558 0)
