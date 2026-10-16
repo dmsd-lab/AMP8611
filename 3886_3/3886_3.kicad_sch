@@ -2738,7 +2738,7 @@
 		)
 		(uuid "88f45783-0b76-4bb8-b700-468a68f8e398")
 	)
-	(text "Irms 1.5A\nfuse 3A, 20 A^2S"
+	(text "Irms 1.5A\nfuse 3A, >20 A^2S"
 		(exclude_from_sim no)
 		(at 234.696 54.864 0)
 		(effects
