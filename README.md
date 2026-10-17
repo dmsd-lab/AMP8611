@@ -9,8 +9,7 @@ Full documentation (description pdf, Kicad project schematic and PCB, Gerber fil
 
 **Key Specifications**:
 - Input resistance: 10kΩ;  
-- Nominal input voltage: 0.85Vrms;  
-- Maximum input voltage: 2.5Vrms;   
+- Nominal input voltage: 0.85Vrms; 
 - Maximum output power: 2 x 45W RMS (1kHz sinusoidal, 4ohm load);  
 - Bandwidth (-3dB): 20Hz – 90kHz;  
 - Volume control: -80 to +12dB;  
