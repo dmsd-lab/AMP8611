@@ -3235,7 +3235,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 107.95) (xy 27.94 111.76)
+			(xy 27.94 99.06) (xy 27.94 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3802,16 +3802,6 @@
 			(type default)
 		)
 		(uuid "5e9208a6-4b30-47c0-a605-f413383b0d78")
-	)
-	(wire
-		(pts
-			(xy 27.94 99.06) (xy 27.94 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f177e24-8276-444f-b5a4-3cc498c28523")
 	)
 	(wire
 		(pts
@@ -9399,73 +9389,6 @@
 			(project "3886_1"
 				(path "/e5e4cd80-f3a6-42ed-a9b8-872499a3dd49"
 					(reference "#PWR0105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 27.94 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2815b4ec-0a10-4454-a9e9-255a44473cdc")
-		(property "Reference" "R101"
-			(at 24.13 105.156 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 25.908 105.156 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 27.94 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 27.94 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 27.94 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "960aee7d-d17e-499b-a260-b6e30650a4c4")
-		)
-		(pin "2"
-			(uuid "8d12b8ce-0ee2-446d-9234-4ee95066a4c5")
-		)
-		(instances
-			(project "3886_3"
-				(path "/e5e4cd80-f3a6-42ed-a9b8-872499a3dd49"
-					(reference "R101")
 					(unit 1)
 				)
 			)
