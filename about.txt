@@ -1,1 +1,1 @@
-AMP8611 - open hardware integrated Stereo Power Amplifier with a 2-channel input selector, PGA2311 digital volume control and LM3886 power stages
+AMP8611 - open hardware integrated stereo power amplifier with a 2-channel input selector, PGA2311 digital volume control and LM3886 power stages
