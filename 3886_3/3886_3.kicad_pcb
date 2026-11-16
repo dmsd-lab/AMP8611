@@ -15445,7 +15445,7 @@
 		(descr "Generic Phoenix Contact connector footprint for: MCV_1,5/2-G-3.81; number of pins: 02; pin pitch: 3.81mm; Vertical || order number: 1803426 8A 160V")
 		(tags "phoenix_contact connector MCV_01x02_G_3.81mm")
 		(property "Reference" "J101"
-			(at 2.0828 -5.08 90)
+			(at 7.62 -2.54 180)
 			(layer "F.SilkS")
 			(uuid "3f55a7a0-3d2e-46f4-959b-052d2d5dff5b")
 			(effects
@@ -27922,7 +27922,7 @@
 		)
 	)
 	(gr_line
-		(start 59.309 60.325)
+		(start 59.309 60.833)
 		(end 59.309 52.451)
 		(stroke
 			(width 0.8)
@@ -27932,7 +27932,7 @@
 		(uuid "10adb2ce-693b-44e7-b677-5b335b9725ec")
 	)
 	(gr_line
-		(start 89.281 103.378)
+		(start 89.154 103.378)
 		(end 82.423 103.378)
 		(stroke
 			(width 0.8)
@@ -28115,7 +28115,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 113.157 72.62 90)
+		(at 113.157 71.12 90)
 		(layer "F.SilkS")
 		(uuid "ac1896bd-02bc-4048-a2e3-68f7a4ab6d12")
 		(effects
@@ -28137,7 +28137,7 @@
 		)
 	)
 	(gr_text "IN"
-		(at 113.284 65.786 90)
+		(at 113.157 67.183 90)
 		(layer "F.SilkS")
 		(uuid "cb969946-141a-43bc-8a2b-47b9b3a1b2d5")
 		(effects
@@ -28741,7 +28741,7 @@
 	)
 	(via
 		(at 79.756 103.886)
-		(size 3.5)
+		(size 4)
 		(drill 1.2)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
@@ -28801,7 +28801,7 @@
 	)
 	(via
 		(at 91.694 103.886)
-		(size 3.5)
+		(size 4)
 		(drill 1.2)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
@@ -29874,20 +29874,20 @@
 		(uuid "eea8f58f-53c9-4dea-bf5d-9d2b85afeff4")
 	)
 	(segment
-		(start 81.9535 61.214)
-		(end 83.947 61.214)
-		(width 1)
-		(layer "B.Cu")
-		(net 8)
-		(uuid "1d3d89c6-1192-444c-8459-433ff7632ede")
-	)
-	(segment
 		(start 84.582 55.88)
 		(end 84.328 55.626)
 		(width 2.5)
 		(layer "B.Cu")
 		(net 8)
 		(uuid "4b3d11d9-772c-48ec-b3bc-ea99cf96f398")
+	)
+	(segment
+		(start 84.582 60.579)
+		(end 84.582 58.928)
+		(width 1)
+		(layer "B.Cu")
+		(net 8)
+		(uuid "6040c7f2-ea79-4b8a-9fc2-523f54359ca8")
 	)
 	(segment
 		(start 84.582 58.674)
@@ -29906,12 +29906,12 @@
 		(uuid "6f403318-d633-4914-8b09-76e9db626146")
 	)
 	(segment
-		(start 84.582 60.579)
-		(end 84.582 58.928)
+		(start 81.9535 61.214)
+		(end 83.947 61.214)
 		(width 1)
 		(layer "B.Cu")
 		(net 8)
-		(uuid "7266f846-c153-46ab-b216-95ed8c48fa92")
+		(uuid "782e3882-972f-4742-9768-2afa20600365")
 	)
 	(segment
 		(start 81.723 53.021)
@@ -29946,6 +29946,14 @@
 		(uuid "c1e793b9-0d29-4c0f-ac8f-c77c82fa64c8")
 	)
 	(segment
+		(start 83.947 61.214)
+		(end 84.582 60.579)
+		(width 1)
+		(layer "B.Cu")
+		(net 8)
+		(uuid "d0d1c9d2-1a52-4045-a04e-170539802d09")
+	)
+	(segment
 		(start 85.09 58.166)
 		(end 84.582 58.674)
 		(width 2.5)
@@ -29978,12 +29986,12 @@
 		(uuid "f76bc0f9-4e2c-4f71-8bff-7b5293f9962a")
 	)
 	(segment
-		(start 83.947 61.214)
-		(end 84.582 60.579)
-		(width 1)
+		(start 78.74 56.414)
+		(end 78.74 61.214)
+		(width 1.5)
 		(layer "B.Cu")
-		(net 8)
-		(uuid "f9f5ff1c-9a53-4799-a5f6-72d470dbeb3f")
+		(net 9)
+		(uuid "9c93c958-6991-4bed-9b04-29c2291b53d6")
 	)
 	(segment
 		(start 78.74 61.214)
@@ -29991,15 +29999,7 @@
 		(width 1)
 		(layer "B.Cu")
 		(net 9)
-		(uuid "7e889303-78d8-44e1-9b89-13b0c4f463fb")
-	)
-	(segment
-		(start 78.74 56.414)
-		(end 78.74 61.214)
-		(width 1)
-		(layer "B.Cu")
-		(net 9)
-		(uuid "9c93c958-6991-4bed-9b04-29c2291b53d6")
+		(uuid "f0944549-7666-436d-9e13-f9c5a3cb3968")
 	)
 	(segment
 		(start 101.306 46.843)
@@ -30668,7 +30668,7 @@
 	(segment
 		(start 86.36 99.822)
 		(end 94.234 99.822)
-		(width 3.5)
+		(width 3)
 		(layer "B.Cu")
 		(net 23)
 		(uuid "61aaf2e2-b816-476e-bfc9-3943663bac66")
@@ -30876,7 +30876,7 @@
 	(segment
 		(start 86.106 113.6396)
 		(end 86.106 104.775)
-		(width 4)
+		(width 4.5)
 		(layer "B.Cu")
 		(net 25)
 		(uuid "fdfae990-99c8-42db-b3ff-9c616303222c")
@@ -31963,37 +31963,6 @@
 		(net 0)
 		(net_name "")
 		(layer "B.Mask")
-		(uuid "3251f1ae-3ffd-4b04-88b6-9dff9e67d4e3")
-		(hatch edge 0.5)
-		(connect_pads
-			(clearance 0.5)
-		)
-		(min_thickness 0.25)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-		)
-		(polygon
-			(pts
-				(xy 76.454 115.824) (xy 80.518 115.824) (xy 80.518 118.872) (xy 76.454 118.872)
-			)
-		)
-		(filled_polygon
-			(layer "B.Mask")
-			(island)
-			(pts
-				(xy 80.461039 115.843685) (xy 80.506794 115.896489) (xy 80.518 115.948) (xy 80.518 118.748) (xy 80.498315 118.815039)
-				(xy 80.445511 118.860794) (xy 80.394 118.872) (xy 76.578 118.872) (xy 76.510961 118.852315) (xy 76.465206 118.799511)
-				(xy 76.454 118.748) (xy 76.454 115.948) (xy 76.473685 115.880961) (xy 76.526489 115.835206) (xy 76.578 115.824)
-				(xy 80.394 115.824)
-			)
-		)
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "B.Mask")
 		(uuid "433e4dd0-ca7b-401e-9173-d321e2ecf0c1")
 		(hatch edge 0.5)
 		(connect_pads
@@ -32080,6 +32049,37 @@
 				(xy 72.317511 53.328794) (xy 72.266 53.34) (xy 70.736 53.34) (xy 70.668961 53.320315) (xy 70.623206 53.267511)
 				(xy 70.612 53.216) (xy 70.612 51.305) (xy 70.631685 51.237961) (xy 70.684489 51.192206) (xy 70.736 51.181)
 				(xy 72.266 51.181)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "B.Mask")
+		(uuid "79884417-5109-4940-b219-d0e5354ed10b")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 79.502 57.785) (xy 79.502 59.817) (xy 77.978 59.817) (xy 77.978 57.785)
+			)
+		)
+		(filled_polygon
+			(layer "B.Mask")
+			(island)
+			(pts
+				(xy 79.445039 57.804685) (xy 79.490794 57.857489) (xy 79.502 57.909) (xy 79.502 59.693) (xy 79.482315 59.760039)
+				(xy 79.429511 59.805794) (xy 79.378 59.817) (xy 78.102 59.817) (xy 78.034961 59.797315) (xy 77.989206 59.744511)
+				(xy 77.978 59.693) (xy 77.978 57.909) (xy 77.997685 57.841961) (xy 78.050489 57.796206) (xy 78.102 57.785)
+				(xy 79.378 57.785)
 			)
 		)
 	)
@@ -32286,20 +32286,48 @@
 		)
 		(polygon
 			(pts
-				(xy 34.29 65.786) (xy 42.418 65.786) (xy 42.418 73.66) (xy 35.56 73.66) (xy 35.56 79.756) (xy 42.418 79.756)
-				(xy 42.418 82.296) (xy 34.29 82.296)
+				(xy 34.29 65.786) (xy 42.037 65.786) (xy 42.037 73.533) (xy 34.29 73.533)
 			)
 		)
 		(filled_polygon
 			(layer "B.Mask")
 			(island)
 			(pts
-				(xy 42.361039 65.805685) (xy 42.406794 65.858489) (xy 42.418 65.91) (xy 42.418 73.536) (xy 42.398315 73.603039)
-				(xy 42.345511 73.648794) (xy 42.294 73.66) (xy 35.56 73.66) (xy 35.56 79.756) (xy 42.294 79.756)
-				(xy 42.361039 79.775685) (xy 42.406794 79.828489) (xy 42.418 79.88) (xy 42.418 82.172) (xy 42.398315 82.239039)
-				(xy 42.345511 82.284794) (xy 42.294 82.296) (xy 34.414 82.296) (xy 34.346961 82.276315) (xy 34.301206 82.223511)
-				(xy 34.29 82.172) (xy 34.29 65.91) (xy 34.309685 65.842961) (xy 34.362489 65.797206) (xy 34.414 65.786)
-				(xy 42.294 65.786)
+				(xy 41.980039 65.805685) (xy 42.025794 65.858489) (xy 42.037 65.91) (xy 42.037 73.409) (xy 42.017315 73.476039)
+				(xy 41.964511 73.521794) (xy 41.913 73.533) (xy 34.414 73.533) (xy 34.346961 73.513315) (xy 34.301206 73.460511)
+				(xy 34.29 73.409) (xy 34.29 65.91) (xy 34.309685 65.842961) (xy 34.362489 65.797206) (xy 34.414 65.786)
+				(xy 41.913 65.786)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "B.Mask")
+		(uuid "ef3b7c37-0157-4e92-8f70-fc5730edfeca")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 76.708 115.443) (xy 76.708 118.999) (xy 80.518 118.999) (xy 80.518 115.443)
+			)
+		)
+		(filled_polygon
+			(layer "B.Mask")
+			(island)
+			(pts
+				(xy 80.461039 115.462685) (xy 80.506794 115.515489) (xy 80.518 115.567) (xy 80.518 118.875) (xy 80.498315 118.942039)
+				(xy 80.445511 118.987794) (xy 80.394 118.999) (xy 76.832 118.999) (xy 76.764961 118.979315) (xy 76.719206 118.926511)
+				(xy 76.708 118.875) (xy 76.708 115.567) (xy 76.727685 115.499961) (xy 76.780489 115.454206) (xy 76.832 115.443)
+				(xy 80.394 115.443)
 			)
 		)
 	)
